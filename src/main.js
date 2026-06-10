@@ -111,7 +111,7 @@ const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoLoader);
 
 loader.load(
-  '/models/basketball.glb',
+  './models/basketball.glb',
   (gltf) => {
     ball = gltf.scene;
 
