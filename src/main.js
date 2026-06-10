@@ -110,8 +110,10 @@ dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5
 const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoLoader);
 
+import basketballModelUrl from '/models/basketball.glb?url';
+
 loader.load(
-  './models/basketball.glb',
+  basketballModelUrl,
   (gltf) => {
     ball = gltf.scene;
 
