@@ -316,13 +316,13 @@ img {
 /* PH Badge */
 #ph-badge {
   position: absolute;
-  top: 6rem;
+  bottom: 2.5rem;
   left: 2.5rem;
   z-index: 20;
   border-radius: 14px;
   padding: 10px 16px;
   opacity: 0;
-  transform: translateY(-8px);
+  transform: translateY(8px);
   transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
   cursor: pointer;
 }
@@ -1456,6 +1456,7 @@ button, a {
 
   #ph-badge {
     top: 4.5rem;
+    bottom: auto;
     left: 1.2rem;
     padding: 8px 12px;
   }
