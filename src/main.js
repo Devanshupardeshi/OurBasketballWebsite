@@ -57,7 +57,7 @@ scene.add(hemiLight);
    BALL SECTION WAYPOINTS
    ============================================= */
 const BALL_SCALE = 0.97;
-const FOOTER_SCALE = 0.5;
+const FOOTER_SCALE = 0.15;
 
 function isMobile() {
   return window.innerWidth <= 768;
@@ -73,10 +73,10 @@ function getSections() {
     };
   }
   return {
-    hero:   { x:  0.5,  y: -0.45, z:  0,    scale: BALL_SCALE   },
-    stats:  { x:  2.2,  y:  0.0,  z:  0,    scale: BALL_SCALE   },
-    how:    { x: -2.2,  y:  0.0,  z:  0,    scale: BALL_SCALE   },
-    footer: { x:  2.5,  y: -1.3,  z: -2.0,  scale: FOOTER_SCALE },
+    hero:   { x:  0.1,  y: -0.45, z:  0,    scale: BALL_SCALE   },
+    stats:  { x:  1.5,  y:  0.0,  z:  0,    scale: BALL_SCALE   },
+    how:    { x: -1.5,  y:  0.0,  z:  0,    scale: BALL_SCALE   },
+    footer: { x:  1.5,  y: -1.3,  z: -2.0,  scale: FOOTER_SCALE },
   };
 }
 
